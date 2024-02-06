@@ -9,11 +9,11 @@
 <body class="bg-white">
     
     <!-- Navigation Bar-->
-    <nav class="bg-gray-50 fixed w-full z-20 top-0 start-0 border-b-2 border-b-solid border-b-gray-100 dark:bg-gray-800 dark:border-gray-700">
+    <nav class="bg-gray-50 border-b-2 border-b-solid border-b-gray-100 dark:bg-gray-800 dark:border-gray-700">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="#" class="flex space-x-3 rtl:space-x-reverse">
             <!--<img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />-->
-            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Knobby's Kids</span>
+            <span class=" text-2xl font-semibold whitespace-nowrap dark:text-white">Knobby's Kids</span>
         </a>
         <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
@@ -63,186 +63,30 @@
     </nav>
   
     <!-- History -->
-    <div id="about" class="relative bg-white overflow-hidden m-10 ">
-        <div>
-            <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-                <div class="pt-1"></div>
-    
-                <main class="sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-                    <div class="sm:text-left lg:text-left">
-                        <h2 class="my-6 mt-10 text-2xl tracking-tight font-bold font-serif text-gray-900 sm:text-3xl md:text-4xl">ABOUT US</h2>
-                        <p class="text-xl">
-                            Knobby’s Kids Hockey was founded in 2006 by friends, Knobby Knudsen, Jerry Slavik and Frank Spry.
-                            Our founders recognized the need for sports for children who may not otherwise be able to join a league. 
-                            The initial season saw 50 kids hit the ice over two hours on Saturday mornings. 
-                            Over the years the program expanded to three hours of ice time and additional special events were added to support kids and their families. 
-                            In 2023 registration hit a new high of 150 kids registered and 50 additional kids on a waiting list.
-                        </p>
-                    </div>
-                </main>
-            </div>
+    <div class="m-6 mb-8 lg:m-16 xl:flex">
+        <div class="w-full p-1 md:p-11 lg:p-8 xl:w-1/2">
+          <h2 class="text-2xl text-center underline md:text-3xl 2xl:p-2">HISTORY</h2>
+          <p class="mt-5 text-lg md:text-xl lg:text-lg xl:text-xl 2xl:p-2 2xl:text-xl">Knobby’s Kids Hockey was founded in 2006 by friends, Knobby Knudsen, Jerry Slavik and Frank Spry. Our founders recognized the need for sports for children who may not otherwise be able to join a league. The initial season saw 50 kids hit the ice over two hours on Saturday mornings. Over the years the program expanded to three hours of ice time and additional special events were added to support kids and their families. In 2023 registration hit a new high of 150 kids registered and 50 additional kids on a waiting list.</p>
         </div>
-        <div class="mt-16 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-            <img class="h-56 w-full shadow-sm object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full" src="./img/aboutimage.jpg" alt="Pixel Art">
+
+        <div class="w-full mt-5 xl:w-1/2">
+          <img src="./img/aboutimage.jpg" class="float-right mb-8">
         </div>
     </div>
 
     <!-- Founders -->
-    <div>
-        <div class="relative bg-white overflow-hidden ml-10">
-            <div class="relative z-10 pb-2">
-                <main class="sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-                    <div class="sm:text-left lg:text-left">
-                        <h2 class="my-6 text-2xl tracking-tight font-bold font-serif text-gray-900 sm:text-3xl md:text-4xl">FOUNDERS</h2>
-                    </div>
-                </main>
+    <div class="m-5 lg:m-16">
+        <h2 class="mt-5 text-xl md:text-2xl text-center underline xl:text-left md:ml-4 2xl:p-2">FOUNDERS</h2>
+        <div class="transition ease-in-out delay-150 mt-8 lg:flex md:m-5 bg-sky-200 border border-gray-100 rounded-lg shadow hover:bg-sky-300 duration-300">
+            <img class="object-cover  h-96 w-full rounded-t-lg lg:w-96 md:rounded-none md:rounded-s-lg" src="./img/aboutimage.jpg" alt="">
+            <div class="p-8 w-full">
+                <h5 class="mb-4 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">KNOBBY KNUDSEN</h5>
+                <p class="font-semibold text-gray-700 dark:text-gray-400 md:visible xl:text-xl">Knobby Knudsen had the original inspiration to create our program.  He wanted a program that allowed children to learn and play hockey without having the financial burden of registering in a league and buying equipment. In addition, the program would also let kids play without the competitive stress of traditional minor hockey.  At the time it seemed like a crazy idea but that didn’t deter Knobby.  He teamed up with Jerry Slavik and Frank Spry and built the program from nothing.</p>  
+                <!--<p class="mb-3 invisible font-normal text-gray-700 dark:text-gray-400 xl:visible">In the beginning there was no equipment, coaches nor home ice.  He helped get everything together and build the team that today is Knobby’s Kids.  Knobby also gave us one of our mottos, “Kids in Sports Stay Out of Courts”.  He believed that giving kids opportunity and a good environment would help them down a good path in life.</p>-->
             </div>
         </div>
-        <div class="bg-gradient-to-r from-white from-60% via-white via-25% to-blue-50 to-15% py-4 sm:py-6">
-            <div class="max-w-7xl px-6 lg:px-8">
-            <ul role="list" class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-0 gap-y-0 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-                <li v-for="person in people" :key="person.name">
-                    <ul role="list" class="mt-1 flex gap-x-3">
-                    <div class="m-2 space-y-2">
-                        <div class="group flex flex-col gap-1 rounded-lg p-5 text-gray" tabindex="1">
-                            <div style="width:320px;" class="group relative m-0 flex h-72 w-72 rounded-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
-                            <div class="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
-                            <img src="https://img.freepik.com/free-photo/businesspeople-office-meeting_23-2148908969.jpg" class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
-                        </div>
-                        <div style="background-color: Gray; width:70%;" class="p-3 rounded-xl opacity-60 absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110 group-hover:opacity-100">
-                            <h1 class="text-lg font-bold text-white ">Juliet Smith</h1>
-                            <h2 class="text-m font-light text-gray-200 ">Team Leader</h2>
-                        </div>                 
-                    </div>
-                        
-                        <div class="invisible h-auto max-h-0 p-5 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000">
-                            <p style="font-size: .9em;" v-html="This is all about John"></p>
-                        </div>
-                        </div>
-                    </div>
-                    </ul>
-                </li>
-
-                <li v-for="person in people" :key="person.name">
-                    <ul role="list" class="mt-1 flex gap-x-3">
-                        <div class="m-2 space-y-2">
-                            <div class="group flex flex-col gap-1 rounded-lg p-5 text-gray" tabindex="1">
-                                <div style="width:320px;" class="group relative m-0 flex h-72 w-72 rounded-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
-                                <div class="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
-                                <img src="https://img.freepik.com/free-photo/portrait-adult-male-smiling_23-2148729648.jpg" class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
-                            </div>
-                            <div style="background-color: Gray; width:70%;" class="p-3 rounded-xl opacity-60 absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110 group-hover:opacity-100">
-                                <h1 class="text-lg font-bold text-white ">Andrew Davis</h1>
-                                <h2 class="text-m font-light text-gray-200 ">Analyst</h2>
-                            </div>
-                            </div>
-                            <div class="invisible h-auto max-h-0 p-5 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000">
-                                <p style="font-size: .9em;" v-html="This is all about John"></p>
-                            </div>
-                        </div>
-                        </div>
-                    </ul>
-                </li>
-
-                <li v-for="person in people" :key="person.name">
-                    <ul role="list" class="mt-1 flex gap-x-3">
-                        <div class="m-2 space-y-2">
-                            <div class="group flex flex-col gap-1 rounded-lg p-5 text-gray" tabindex="1">
-                                <div style="width:320px;" class="group relative m-0 flex h-72 w-72 rounded-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
-                                <div class="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
-                                <img src="https://img.freepik.com/free-photo/portrait-adult-male-smiling_23-2148729648.jpg" class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
-                            </div>
-                            <div style="background-color: Gray; width:70%;" class="p-3 rounded-xl opacity-60 absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110 group-hover:opacity-100">
-                                <h1 class="text-lg font-bold text-white ">Andrew Davis</h1>
-                                <h2 class="text-m font-light text-gray-200 ">Analyst</h2>
-                            </div>
-                            </div>
-                            <div class="invisible h-auto max-h-0 p-5 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000">
-                                <p style="font-size: .9em;" v-html="This is all about John"></p>
-                            </div>
-                        </div>
-                        </div>
-                    </ul>
-                </li>
-            </ul>
-          </div>
-        </div>
     </div>
-
-    <!-- Our Team -->
-    <div id="#team">
-        <div class="relative bg-white overflow-hidden ml-10">
-            <div class="relative z-10 pb-2">
-                <main class="sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-                    <div class="sm:text-left lg:text-left">
-                        <h2 class="my-6 text-2xl tracking-tight font-bold font-serif text-gray-900 sm:text-3xl md:text-4xl">OUR TEAM</h2>
-                    </div>
-                </main>
-            </div>
-        </div>
-        <div class="bg-gradient-to-r from-red-300 from-30% via-white via-5% to-white to-65% py-4 sm:py-6">
-          <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <ul role="list" class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-0 gap-y-0 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            <li v-for="person in people" :key="person.name">
-                <ul role="list" class="mt-3 flex gap-x-3">
-                  <div class="m-2 space-y-2">
-                    <div class="group flex flex-col gap-1 rounded-lg p-5 text-gray" tabindex="1">
-                        <div style="width:320px;" class="group relative m-0 flex h-72 w-72 rounded-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
-                        <div class="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
-                        <img src="https://img.freepik.com/free-photo/businesspeople-office-meeting_23-2148908969.jpg" class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
-                    </div>
-                    <div style="background-color: Gray; width:70%;" class="p-3 rounded-xl opacity-60 absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110 group-hover:opacity-100">
-                        <h1 class="text-lg font-bold text-white ">Juliet Smith</h1>
-                        <h2 class="text-m font-light text-gray-200 ">Team Leader</h2>
-                    </div>
-                  
-                  </div>
-                    </div>
-                  </div>
-                </ul>
-            </li>
-
-            <li v-for="person in people" :key="person.name">
-                <ul role="list" class="mt-3 flex gap-x-3">
-                  <div class="m-2 space-y-2">
-                    <div class="group flex flex-col gap-1 rounded-lg p-5 text-gray" tabindex="1">
-                        <div style="width:320px;" class="group relative m-0 flex h-72 w-72 rounded-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
-                        <div class="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
-                        <img src="https://img.freepik.com/free-photo/portrait-adult-male-smiling_23-2148729648.jpg" class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
-                    </div>
-                    <div style="background-color: Gray; width:70%;" class="p-3 rounded-xl opacity-60 absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110 group-hover:opacity-100">
-                        <h1 class="text-lg font-bold text-white ">Andrew Davis</h1>
-                        <h2 class="text-m font-light text-gray-200 ">Analyst</h2>
-                    </div>
-                  
-                  </div>
-                    </div>
-                  </div>
-                </ul>
-              </li>
-
-              <li v-for="person in people" :key="person.name">
-                <ul role="list" class="mt-3 flex gap-x-3">
-                  <div class="m-2 space-y-2">
-                    <div class="group flex flex-col gap-1 rounded-lg p-5 text-gray" tabindex="1">
-                        <div style="width:320px;" class="group relative m-0 flex h-72 w-72 rounded-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
-                        <div class="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
-                        <img src="https://img.freepik.com/free-photo/businesspeople-office-meeting_23-2148908969.jpg" class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
-                    </div>
-                    <div style="background-color: Gray; width:70%;" class="p-3 rounded-xl opacity-60 absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110 group-hover:opacity-100">
-                        <h1 class="text-lg font-bold text-white ">Juliet Smith</h1>
-                        <h2 class="text-m font-light text-gray-200 ">Team Leader</h2>
-                    </div>
-                  
-                  </div>
-                    </div>
-                  </div>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </div>
+    
 
         
     <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
